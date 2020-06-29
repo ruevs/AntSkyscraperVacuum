@@ -11,7 +11,7 @@
     <style>
       @import url(./engine/fonts/fonts.css);
       body {
-        font-family: 'Droid Serif';
+        font-family: 'Open Sans';
       }
       h1, h2, h3 {
         font-family: 'Yanone Kaffeesatz';
@@ -22,8 +22,12 @@
       .remark-slide-content h2 { font-size: 2em; }
       .remark-slide-content h3 { font-size: 1.6em; }
       .footnote {
+        bottom: 5em;
         position: absolute;
-        bottom: 3em;
+      }
+      .footnote p {
+        background-color: rgba(0,0,0,0.5);
+        padding: 4px;
       }
       .slidofootnote {
         position: absolute;
@@ -164,7 +168,7 @@
         background: url("./media/Tower_of_Pisa.jpg");
         background-size: contain
       }
-      
+
 .fullscreen-bg {
   position: fixed;
   top: 0;
@@ -210,7 +214,6 @@ class: center, middle, inverse
 <img src="./media/AntSad.gif" alt="Ant sad" width="30%">
 
 .footnote.left[Петър Руевски]
-##.slidofootnote[[RATIO.BG](https://ratio.bg/)]
 ???
 .footnote[В Интернет http://ruevs.com/energy/]
 
@@ -218,16 +221,15 @@ class: center, middle, inverse
 layout: false
 background-image: url(./media/BrujKhalifa.jpg)
 background-size: cover
-##.slidofootnote[[RATIO.BG](https://ratio.bg/)]
 ???
 ## Защо за мравката? Така каза Никола :-)
 --
 
-.yellow[Височина `\(829.8\ \mathrm{m}\)`
+.white[Височина `\(829.8\ \mathrm{m}\)`
 ]
 --
 
-.yellow[
+.white[
 <img src="./media/Ant.jpg" alt="Ant" width="12%"><br>Маса `\(4\times 10^{-6}\ \mathrm{kg}\)`
 
 .footnote[
@@ -239,7 +241,7 @@ https://askabiologist.asu.edu/content/ant-factoids
 https://tasks.illustrativemathematics.org/content-standards/tasks/823
 --
 
-.yellow[
+.white[
 <img src="./media/638831main_globe_east_2048.jpg" alt="Earth" width="12%"><br>Маса `\(5\ 972\times 10^{24}\ \mathrm{kg}\)`
 
 `\(\mathrm{g}=9.81\ {{\mathrm{m}} \over {\mathrm{s}^2}}\)`
@@ -247,9 +249,9 @@ https://tasks.illustrativemathematics.org/content-standards/tasks/823
 ]
 --
 
-.asterixoverlay.yellow[
+.asterixoverlay.white[
 $$V=a{\cdot}t$$
-$$S={V{\cdot}t \over 2}$$ 
+$$S={V{\cdot}t \over 2}$$
 $$V=\sqrt{2{\cdot}a{\cdot}S}$$
 $$V=\sqrt{{2{\cdot}9.81{{\mathrm{m}} \over {\mathrm{s}^2}}{\cdot}829.8\mathrm{m}}}=\\\
 =127.6\ {\mathrm{m}\over\mathrm{s}}=\\\
@@ -260,9 +262,8 @@ $$V=\sqrt{{2{\cdot}9.81{{\mathrm{m}} \over {\mathrm{s}^2}}{\cdot}829.8\mathrm{m}
 layout: false
 background-image: url(./media/BrujKhalifa.jpg)
 background-size: cover
-##.slidofootnote[[RATIO.BG](https://ratio.bg/)]
 
-.yellow[Височина `\(829.8\ \mathrm{m}\)`
+.white[Височина `\(829.8\ \mathrm{m}\)`
 
 <img src="./media/Ant.jpg" alt="Ant" width="12%"><br>Маса `\(4\times 10^{-6}\ \mathrm{kg}\)`
 
@@ -276,7 +277,7 @@ background-size: cover
 ]
 --
 
-.asterixoverlay.yellow[
+.asterixoverlay.white[
 $$a={V^2\over{2{\cdot}S}}$$
 $$V=127.6\ {\mathrm{m}\over\mathrm{s}}$$
 $$S=0.5\ \mathrm{mm}=0.0005\ \mathrm{m}$$
@@ -290,9 +291,8 @@ $${16280676\ {{\mathrm{m}} \over {\mathrm{s}^2}}\over{9.81\ {{\mathrm{m}} \over 
 layout: false
 background-image: url(./media/BrujKhalifa.jpg)
 background-size: cover
-##.slidofootnote[[RATIO.BG](https://ratio.bg/)]
 
-.yellow[Височина `\(829.8\ \mathrm{m}\)`
+.white[Височина `\(829.8\ \mathrm{m}\)`
 
 <img src="./media/Ant.jpg" alt="Ant" width="12%"><br>Маса `\(4\times 10^{-6}\ \mathrm{kg}\)`
 
@@ -306,7 +306,7 @@ background-size: cover
 ]
 --
 
-.asterixoverlay.yellow[
+.asterixoverlay.white[
 $$a=1659600{\cdot}g$$
 $$g\cdot829.8\mathrm{m}=a\cdot0.0005\mathrm{m}$$
 $$a=g\cdot{829.8\mathrm{m}\over{0.0005\mathrm{m}}}=1659600{\cdot}g$$
@@ -316,9 +316,9 @@ $$a=g\cdot{829.8\mathrm{m}\over{0.0005\mathrm{m}}}=1659600{\cdot}g$$
 <!--
 ---
 class: center, middle
- 
+
 # `\(\LaTeX{}\)` in remark
- 
+
 ---
 # Display and Inline
 # 😱 :scream: 😠 :angry: 😡 :rage: 😢 :cry: 😲 :astonished: 😵 :dizzy_face: 😰 :cold_sweat:
